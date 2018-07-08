@@ -1,4 +1,9 @@
 /********************
+	JQuery
+********************/
+//= ../../bower_components/jquery/dist/jquery.min.js
+
+/********************
 	jquery.spincrement.min.js
 ********************/
 //= partials/jquery.spincrement.min.js
