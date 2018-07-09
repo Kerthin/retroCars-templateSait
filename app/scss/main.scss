@@ -1,0 +1,161 @@
+@import '../../bower_components/reset.scss/reset.scss';
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+	font-family: retroFont;
+	src: url(../fonts/retroFont.ttf);
+}
+::-webkit-scrollbar {
+  width               : 0;
+}
+.fsvs {
+	background-color: darkred;
+	color: #808080;
+	overflow-y: scroll;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	user-select: none;
+	
+	.container {
+		width: 100%;
+
+		&__header {
+			position: absolute;
+			width: 100%;
+			height: 10vh;
+			z-index: 3;
+
+			.logoWrapper {
+				position: relative;
+				display: block;
+				float: left;
+				width: 25%;
+				height: 10vh;
+
+				&__imageBox	{
+					display: block;
+					float: left;
+					width: 40%;
+					height: 10vh;
+					padding: 2vh 0;
+
+					.imageLogo {
+						float: right;
+						width: 50%;
+						height: 6vh;
+						background-image: url('../image/OldsmobileLogo1.png');
+						background-position: center center;
+						background-repeat: no-repeat;
+						background-size: contain;
+					}
+				}
+				&__nameBox {
+					display: block;
+					float: left;
+					width: 60%;
+					height: 10vh;
+					text-align: left;
+					padding: 4vh 0;
+
+					.nameLogo {
+						color: #fff;
+						font-size: 2vmin;
+						font-family: retroFont;
+						font-weight: 100;
+					}
+				}
+			}
+
+			.horizontalMenu {
+				position: relative;
+				display: block;
+				float: left;
+				width: 50%;
+				height: 10vh;
+
+				@media screen and (max-width: 1280px) {
+					display: none;
+				}
+				
+				&__menu {
+					width: 100%;
+					height: 10vh;
+
+					.menuItem {
+						width: 20%;
+						height: 10vh;
+						display: block;
+						float: left;
+						text-align: center;
+						padding: 4vh 0;
+
+						&__link {
+							text-decoration: none;
+							color: #fff;
+							font-size: 2vmin;
+							font-family: retroFont;
+							font-weight: 100;
+							transition: all 0.4s;
+
+							&:hover {
+								color: #961f16;
+							}
+						}
+					}
+				}
+			}
+
+			.burgerMenu {
+				position: relative;
+				display: block;
+				float: left;
+				width: 25%;
+				height: 10vh;
+
+				@import 'partials/burgerMenu.scss';
+			}
+		}
+
+		#fsvs-body {
+			backface-visibility: hidden;
+			perspective: 1000;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			height: 100%;
+			width: 100%;
+
+			.slide {
+				background-color: #82170f;
+				width: 100%;
+				height: 100vh;
+
+				&__container {
+					width: 100%;
+					height: 100vh;
+					background-color: darkred;
+
+					/* 1-st page */
+
+					@import 'partials/firstSlidePageStyle.scss';
+
+					/* 2-nd page */
+
+					@import 'partials/secondSlidePageStyle.scss';
+
+					/* 3-rd page */
+
+					@import 'partials/thirdSlidePageStyle.scss';
+				}
+			}
+		}
+	}
+}
