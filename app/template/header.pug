@@ -1,0 +1,26 @@
+.container__header
+	.logoWrapper
+		.logoWrapper__imageBox
+			.imageLogo
+		.logoWrapper__nameBox
+			p.nameLogo OLDSMOBILE
+	nav.horizontalMenu
+		- var horizontalMenuItems = ["HISTORY", "MODELS", "ABOUT US", "OTHER", "CONTACT"];
+		ul.horizontalMenu__menu
+			for name in horizontalMenuItems
+				li.menuItem
+					a(class="menuItem__link", href="")= name
+	.burgerMenu
+		.burgerMenu__element
+			<input id="burger" class="burgerMenuInput" type="checkbox" />
+				- var pugForLayersBurger = 3;
+				label(class="layersBurger", for="burger")
+					- for (var i=1; i<=pugForLayersBurger; i++)	{
+						span.layersBurger__layer
+					- }
+				nav.leavingMenu
+					- var leavingMenuItems = ["OLDSMOBILE", "FERRARI", "JAGUAR"];
+					ul.leavingMenu__list
+						for name in leavingMenuItems
+							li.item
+								a(class="item__link", href="")= name
