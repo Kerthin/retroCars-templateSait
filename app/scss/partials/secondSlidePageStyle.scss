@@ -1,0 +1,59 @@
+.modelNameOfTheCarContainer {
+	position: absolute;
+	width: 50%;
+	height: 15vh;
+	margin: 10vh 25% 0;
+
+	&__title {
+		font-family: retroFont;
+		font-size: 10vmin;
+		text-align: center;
+		color: #fff;
+	}
+}
+.carImageFront {
+	position: absolute;
+	width: 50%;
+	height: 40vh;
+	margin: 30vh 25%;
+	background-image: url('../image/retroMain2.png');
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.numbersContainer {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	top: 75vh;
+
+	&__numberBlock {
+		width: 25%;
+		height: 100%;
+		display: block;
+		float: left;
+		margin-left: 5%;
+
+		.numberCountItem {
+			width: 100%;
+			height: 70%;
+			display: block;
+			float: left;
+			color: #fff;
+			text-align: center;
+			font-size: 8vmin;
+			font-family: retroFont;
+
+			+ .aboutNumberCountItem {
+				width: 100%;
+				height: 30%;
+				display: block;
+				float: left;
+				color: #fff;
+				text-align: center;
+				font-size: 2vmin;
+				font-family: retroFont;
+			}
+		}
+	}
+}
