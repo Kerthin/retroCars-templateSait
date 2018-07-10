@@ -1,0 +1,11 @@
+.carImageBack {
+  position: absoulte;
+  width: 50%;
+  height: 40vh;
+  margin: 30vh 25%;
+  background-image: url("../image/retroMain3.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhcnRpYWxzL3RoaXJkU2xpZGVQYWdlU3R5bGUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLG1CQUFrQjtFQUNsQixXQUFVO0VBQ1YsYUFBWTtFQUNaLGlCQUFnQjtFQUNoQixpREFBZ0Q7RUFDaEQseUJBQXdCO0VBQ3hCLG1DQUFrQztFQUNsQyw2QkFBNEIsRUFDNUIiLCJmaWxlIjoicGFydGlhbHMvdGhpcmRTbGlkZVBhZ2VTdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FySW1hZ2VCYWNrIHtcblx0cG9zaXRpb246IGFic291bHRlO1xuXHR3aWR0aDogNTAlO1xuXHRoZWlnaHQ6IDQwdmg7XG5cdG1hcmdpbjogMzB2aCAyNSU7XG5cdGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vaW1hZ2UvcmV0cm9NYWluMy5wbmcnKTtcblx0YmFja2dyb3VuZC1zaXplOiBjb250YWluO1xuXHRiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXIgY2VudGVyO1xuXHRiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xufSJdfQ== */
