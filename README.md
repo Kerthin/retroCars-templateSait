@@ -2,13 +2,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/completion-89%25-orange.svg" alt="completion Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/completion-78%25-orange.svg" alt="completion Status"></a>
   <a href="#"><img src="https://img.shields.io/badge/npm-v6.4.0-blue.svg" alt="Version"></a>
   <a href="#"><img src="https://img.shields.io/badge/node-v9.4.0-blue.svg" alt="Version"></a>
   <a href="#"><img src="https://img.shields.io/badge/bower-v1.8.4-blue.svg" alt="Version"></a> <br>
-  <a href="#"><img src="https://img.shields.io/badge/repo%20size-113.1%20MB-green.svg" alt="Size"></a>
-  <a href="#"><img src="https://img.shields.io/badge/minified%20repo-12.8%20MB-green.svg" alt="Size"></a>
-  <a href="#"><img src="https://img.shields.io/badge/project%20version-v0.8-blue.svg" alt="Version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/repo%20size-74.5%20MB-green.svg" alt="Size"></a>
+  <a href="#"><img src="https://img.shields.io/badge/minified%20repo-5.5%20MB-green.svg" alt="Size"></a>
+  <a href="#"><img src="https://img.shields.io/badge/project%20version-v0.7-blue.svg" alt="Version"></a>
 </p>
 
 <h2 align="center">Description</h2>
@@ -209,6 +209,9 @@ The image of the website:
 - Second slide.
 
 #### Gif
+
+  - I apologize in advance for the slow GIF animation. This issue will be fixed in the future.
+  
 <a href="https://github.com/vuejs/vue/graphs/contributors"><img src="READMEimage/retroCarsGif.gif" /></a>
 
 #### First slide
