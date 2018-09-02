@@ -212,7 +212,7 @@ The image of the website:
 <a href="https://github.com/vuejs/vue/graphs/contributors"><img src="READMEimage/retroCarsGif.gif" /></a>
 
 #### First slide
-<a href="https://github.com/vuejs/vue/graphs/contributors"><img src="READMEimage/firstSlide.jpg" /></a>
+<a href="https://github.com/vuejs/vue/graphs/contributors"><img src="READMEimage/firstSlide.png" /></a>
 
 #### Second slide
 <a href="https://github.com/vuejs/vue/graphs/contributors"><img src="READMEimage/secondSlide.png" /></a>
